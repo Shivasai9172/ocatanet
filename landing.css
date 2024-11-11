@@ -1,0 +1,82 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+   padding: 1%;
+}
+.imgmatter{
+    background-image: url(img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    height: 770px;
+    position: relative;
+}
+nav{
+    height: 15%;
+    padding: 15px;
+    font-size: larger;
+    text-align: center;
+    background-color: white ;
+}
+.text{
+    position: absolute;
+    right: 300px;
+    top: 400px;
+    font-size: 20px;
+    
+}
+.text button{
+    background-color: rgb(144, 210, 144);
+    text-decoration: none;
+    border: none;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+}
+.container{
+    background-image: url(img2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    height: 700px;
+    border: solid;
+    border-width: 70px;
+    position: relative;
+    border-color: white;
+}
+.con_tex{
+    border: solid;
+    border-color: white;
+    top: 50px;
+    right: 500px;
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    font-size: 20px;
+    background-color: white;
+    color: black;
+    padding: 5%;
+}
+.con_tex #p{
+    font-size: 15px;
+}
+.contact{
+    width: 100wh;
+}
+.contact ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    width: 100wh;
+    
+}
+h4{
+    font-size: 25px;
+    background-color: white;
+    
+}
+
